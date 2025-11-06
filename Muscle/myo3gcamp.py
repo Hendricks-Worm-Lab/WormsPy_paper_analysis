@@ -90,7 +90,7 @@ def find_orthogonal_endpoints(a, b, p, L):
     return endpoint_1, endpoint_2
 
 # Open the video file
-cap = cv2.VideoCapture(r"D:\OneDrive - McGill University\biology\RIA\muscle gcamp analysis code\Headlift_GCaMP.gif")
+cap = cv2.VideoCapture(r"")
 
 # Read the first frame
 ret, frame = cap.read()
@@ -185,7 +185,6 @@ with open("midline_points.csv", "a", newline='') as csvfile:
                         # Write to csv
                         for position, intensity in zip(np.linspace(0, 1, len(pixel_intensity_values), endpoint=False), pixel_intensity_values):
                             csv_writer.writerow([frame_number, order, point[0], point[1], point_angle, position, intensity])
-
 
             frame_number += 1
 
