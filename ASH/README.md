@@ -1,8 +1,11 @@
+README: Data from: An epifluorescence microscope design for naturalistic behavior and cellular activity in freely moving Caenorhabditis elegans
+[INSERT DRYAD DOI HERE]
+
 # ASH Neuronal Calcium Imaging Analysis Pipeline
 
-This folder contains scripts for analyzing ASH neuron calcium imaging data using ratiometric GCaMP/RFP recordings.
+## Description of the data and file structure
 
-## Overview
+This folder contains scripts for analyzing ASH neuron calcium imaging data using ratiometric GCaMP/RFP recordings.
 
 The pipeline processes dual-channel (GCaMP and RFP) calcium imaging videos to extract ASH neuron activity. It uses TMAC (Two-channel Motion Artifact Correction) to correct for photobleaching and motion artifacts, then analyzes activity traces aligned to behavioral events.
 
@@ -329,6 +332,17 @@ ASH/
 - **Length mismatch:** Align_timeseries requires equal-length alignment point lists
 - **No aligned_time column:** Check that Align_timeseries.py completed successfully
 - **Plotting errors:** Ensure all CSV files have consistent column names
+
+---
+
+## Sharing/Access information
+
+This dataset, as well as other information necessary to reproduce the results in the associated publication, are available on GitHub. We recommend that the dataset is accessed through the following link:
+https://github.com/Hendricks-Worm-Lab/WormsPy_paper_analysis
+
+## Code/Software
+
+https://github.com/Hendricks-Worm-Lab/WormsPy_paper_analysis
 
 ---
 

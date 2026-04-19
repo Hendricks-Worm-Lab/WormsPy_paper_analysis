@@ -1,8 +1,11 @@
+README: Data from: An epifluorescence microscope design for naturalistic behavior and cellular activity in freely moving Caenorhabditis elegans
+[INSERT DRYAD DOI HERE]
+
 # RIA Interneuron Calcium Imaging Analysis Pipeline
 
-This folder contains scripts for analyzing RIA interneuron calcium activity using SAM2-based segmentation and polar coordinate transformation for behavioral correlation analysis.
+## Description of the data and file structure
 
-## Overview
+This folder contains scripts for analyzing RIA interneuron calcium activity using SAM2-based segmentation and polar coordinate transformation for behavioral correlation analysis.
 
 The pipeline processes calcium imaging videos of worms expressing RIA::GCaMP, semi-automatically segments RIA axonal compartments using SAM2 (Segment Anything Model 2), tracks head angle dynamics, and transforms neural activity into polar coordinate space for analysis of neural activity patterns relative to head movement state.
 
@@ -628,6 +631,17 @@ for video_name in sorted(to_process):
 - Check for head detection flips
 - Verify midline ordering is consistent
 - Filter out frames with poor segmentation
+
+---
+
+## Sharing/Access information
+
+This dataset, as well as other information necessary to reproduce the results in the associated publication, are available on GitHub. We recommend that the dataset is accessed through the following link:
+https://github.com/Hendricks-Worm-Lab/WormsPy_paper_analysis
+
+## Code/Software
+
+https://github.com/Hendricks-Worm-Lab/WormsPy_paper_analysis
 
 ---
 

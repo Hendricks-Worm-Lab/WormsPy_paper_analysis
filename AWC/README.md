@@ -1,8 +1,11 @@
+README: Data from: An epifluorescence microscope design for naturalistic behavior and cellular activity in freely moving Caenorhabditis elegans
+[INSERT DRYAD DOI HERE]
+
 # AWC Neuronal Calcium Imaging Analysis Pipeline
 
-This folder contains scripts for analyzing AWC neuron calcium imaging data from WormsPy recordings, integrating fluorescence segmentation with behavioral annotation using DeepLabCut (DLC).
+## Description of the data and file structure
 
-## Overview
+This folder contains scripts for analyzing AWC neuron calcium imaging data from WormsPy recordings, integrating fluorescence segmentation with behavioral annotation using DeepLabCut (DLC).
 
 The pipeline processes single-channel calcium imaging videos (GCaMP) to extract neuron activity while simultaneously tracking worm behavior. It combines automated segmentation with stage position tracking and DLC-based nose-tip tracking.
 
@@ -343,6 +346,17 @@ The final combined CSV (`NAME_combined.csv`) contains all information needed for
 - Trajectory analysis
 - Multi-modal data visualization
 - Statistical analyses linking neural activity to behavior
+
+---
+
+## Sharing/Access information
+
+This dataset, as well as other information necessary to reproduce the results in the associated publication, are available on GitHub. We recommend that the dataset is accessed through the following link:
+https://github.com/Hendricks-Worm-Lab/WormsPy_paper_analysis
+
+## Code/Software
+
+https://github.com/Hendricks-Worm-Lab/WormsPy_paper_analysis
 
 ---
 

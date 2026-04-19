@@ -1,8 +1,11 @@
+README: Data from: An epifluorescence microscope design for naturalistic behavior and cellular activity in freely moving Caenorhabditis elegans
+[INSERT DRYAD DOI HERE]
+
 # Muscle Calcium Imaging Analysis Pipeline
 
-This folder contains a script for analyzing muscle calcium activity along the body wall of *C. elegans* using midline-based segmentation and orthogonal intensity profiling.
+## Description of the data and file structure
 
-## Overview
+This folder contains a script for analyzing muscle calcium activity along the body wall of *C. elegans* using midline-based segmentation and orthogonal intensity profiling.
 
 The pipeline analyzes brightfield videos of worms expressing muscle calcium indicators (e.g., myo-3::GCaMP). It automatically detects the worm body, computes the midline skeleton, and extracts calcium signals from orthogonal segments along the anterior-posterior axis. This allows for spatiotemporal mapping of muscle activity patterns.
 
@@ -418,6 +421,17 @@ for order_idx, intensities in enumerate(profiles):
 # Save as image or numpy array
 np.save(f'frame_{frame_number}_map.npy', intensity_map)
 ```
+
+---
+
+## Sharing/Access information
+
+This dataset, as well as other information necessary to reproduce the results in the associated publication, are available on GitHub. We recommend that the dataset is accessed through the following link:
+https://github.com/Hendricks-Worm-Lab/WormsPy_paper_analysis
+
+## Code/Software
+
+https://github.com/Hendricks-Worm-Lab/WormsPy_paper_analysis
 
 ---
 
