@@ -1,9 +1,6 @@
 README: Data from: An epifluorescence microscope design for naturalistic behavior and cellular activity in freely moving Caenorhabditis elegans
 [INSERT DRYAD DOI HERE] (bioRxiv pre-print: https://doi.org/10.1101/2025.03.21.644605)
 
-# Wittekindt et al. Analysis Code
-Analysis code published in Wittekindt et al., 2025 (https://www.biorxiv.org/content/10.1101/2025.03.21.644605v1)
-
 ## Description of the data and file structure
 
 This data repository contains scripts and analysis pipelines for the paper "An epifluorescence microscope design for naturalistic behavior and cellular activity in freely moving Caenorhabditis elegans". The repository is split into four primary directories based on the tissue/neuron analyzed:
